@@ -55,3 +55,35 @@ nav ul {
 	}
 }
 
+
+.header__item:last-child {
+	cursor: pointer;
+}
+
+@media (max-width: 876px) {
+	.header__item--size {
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 686px) {
+	.header__item-nav, .header__item-info {
+		display: none;
+	}
+
+	.header {
+		padding: 0.5em;
+	}
+	.header__item {
+		padding: 10px;
+		width: 75px;
+		height: 20px; 
+		img {
+			width: 100%;
+		}
+	}
+
+	.header__item:last-child {
+		width: auto;
+	}
+}

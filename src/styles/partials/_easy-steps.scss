@@ -1,12 +1,22 @@
 .easy-steps {
 	text-align: center;
 	font-size: 1.2em;
+
 	> div {
 		display: flex;
+
+		@media (max-width: 768px) {
+			flex-direction: column;
+		}
 
 		div {
 			width: calc(33.33% - 20px);
 			padding: 10px;
+
+			@media (max-width: 768px) {
+				width: calc(100% - 20px);
+				padding-bottom: 20px;
+			}
 		}
 
 		span {
@@ -25,3 +35,4 @@
 	color: #fff;
 	font-size: 1.3em;
 }
+

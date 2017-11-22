@@ -6,10 +6,20 @@
 
 .faqs-container {
 	display: flex;
+
 	text-align: left;
 
 	div {
 		width: 50%;
+	}
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+
+		div {
+			width: 90%;
+			margin: 0 auto; 
+		}
 	}
 }
 

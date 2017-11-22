@@ -10,6 +10,15 @@
 		text-align: left;
 
 	}
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+		height: auto;
+
+		> div:first-child {
+			width: 80%;
+		}
+	}
 }
 .welcome-info {
 	p:first-child {
@@ -41,11 +50,16 @@
 .login-form {
 	width: 50%;
 	align-self: center;
+
+	@media (max-width: 768px) {
+		width: 100%;
+	}
 }
 form {
 	background: #fff;
 	border-radius: 2%;
 	width: 75%;
+	margin: 0 auto;
 	display: block;
 	padding: 10px; 
 	border-bottom: 10px solid $global-blue;
@@ -73,17 +87,19 @@ form {
 		@extend .btn;
 		background: $global-blue;
 		color: #fff;
-		margin-left: 30px;
 		padding: 10px 60px;
+		margin-right: 20px;
 	}
 
 	div {
 		padding: 10px;
+		display: flex;
+		justify-content: space-between;
 
-		a {
-			display: inline-block;
-			margin-right: 30px;
-		}
+	}
+
+	@media (max-width: 468px) {
+		width: 90%;
 	}
 
 }
