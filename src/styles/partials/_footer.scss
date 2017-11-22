@@ -1,0 +1,26 @@
+footer {
+	background-color: grey;
+	padding: 10px 20px;
+	color: #fff;
+}
+.footer-container {
+	> div {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	> div:last-child {
+		div {
+			p {
+				display: inline-block;
+				padding: 5px 15px;
+			}
+
+			p:nth-child(2) {
+				border-right: 1px solid #fff;
+				border-left: 1px solid #fff;
+			}
+		}
+		
+	}
+}

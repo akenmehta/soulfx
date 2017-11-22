@@ -1,0 +1,27 @@
+.easy-steps {
+	text-align: center;
+	font-size: 1.2em;
+	> div {
+		display: flex;
+
+		div {
+			width: calc(33.33% - 20px);
+			padding: 10px;
+		}
+
+		span {
+			font-weight: bold;
+		}
+	}
+	margin: 20px 0 40px 0;
+}
+
+.circle {
+	background: $global-blue;
+	display: inline-block;
+	width: 35px;
+	padding: 12px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 1.3em;
+}

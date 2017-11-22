@@ -1,0 +1,59 @@
+// Variables
+$global-blue: #0494c9;
+$global-grey: #c3c3c3;
+$global-yellow: #fbd637;
+$global-font: 'Salbo' 'Open Sans' 'sans-serif';
+
+html,
+body {
+  font-family: open-sans, arial, sans-serif;
+  font-size: 16px;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1.414em 0 0.5em;
+}
+
+h1 {
+  font-size: 2.8125em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.414em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.825em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.414;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.btn {
+	padding: 10px 50px;
+	border-radius: 12%/50%;
+	border: none;
+}
+
+.hide-me {
+	display: none;
+}

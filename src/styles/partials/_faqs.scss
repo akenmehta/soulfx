@@ -1,0 +1,28 @@
+.faqs {
+	text-align: center;
+	font-size: 1.4em;
+	margin: 20px 0 40px 0;
+}
+
+.faqs-container {
+	display: flex;
+	text-align: left;
+
+	div {
+		width: 50%;
+	}
+}
+
+.questions {
+	span {
+		color: $global-blue;
+		display: inline-block;
+	}
+}
+.answers {
+	color: global-grey;
+
+	span {
+		color: blue;
+	}
+}

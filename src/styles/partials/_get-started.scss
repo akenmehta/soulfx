@@ -1,0 +1,43 @@
+.get-started {
+	display: flex;
+	height: 325px;
+	button {
+		@extend .btn;
+		background: $global-yellow;
+		color: $global-blue;
+		font-size: 1.1em;
+	}
+}
+
+.get-started__video {
+	width: 50%;
+	background: linear-gradient( 0deg, rgba(0, 0, 0, 0.4)), url("../../../dist/img/get-started.png") no-repeat center;
+	background-size: cover;
+	
+	color: #fff;
+
+	p {
+			display: inline-block;
+		}
+
+	> div {
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
+.get-started__saving {
+	width: calc(50% - 40px);
+	background: #f0f0f0;
+	padding: 20px;
+	text-align: center;
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	> div {
+		width: 60%;
+		margin: 20px auto 0 auto;
+	}
+}
