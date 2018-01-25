@@ -1,3 +1,3 @@
 psd conversion (non-responsive)
 
-To run: `npm install && gulp`
+To run: `npm install && gulp` 
